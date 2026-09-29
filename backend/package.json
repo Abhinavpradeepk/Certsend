@@ -1,0 +1,12 @@
+{
+  "name": "certisend-brevo-gateway",
+  "private": true,
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=22.9"
+  },
+  "scripts": {
+    "dev": "node --watch --env-file-if-exists=.env server.js",
+    "start": "node --env-file-if-exists=.env server.js"
+  }
+}
